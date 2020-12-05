@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/images/meal-placeholder.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recipe-book-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/static/images/meal-placeholder.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/build/classes/java/main/org/liftoff/recipebook/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build/classes/java/main/org/liftoff/recipebook/controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build/resources/main/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" afterDir="false" />
@@ -105,6 +101,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/images" />
     </key>
@@ -157,22 +156,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607135700042">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607151146930">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607135700042" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607135700040">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607151146930" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607151146928">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607135700040" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607135700039">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607151146928" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607151146927">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607135700039" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607135700041">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607151146927" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607151146929">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607135700041" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607151146929" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607130210707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
