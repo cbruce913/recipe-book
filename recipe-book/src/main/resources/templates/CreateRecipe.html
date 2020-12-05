@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<form method='post'>
+    <div>
+          This is an image
+        <img src="./images/meal-placeholder.jpg">
+
+    </div>
+    <div>
+        <label>Dish Name
+            <input class="form-control"/>
+        </label>
+    </div>
+    <div>
+        <label>
+            Ingredients:
+            <input type="text">
+            <input type="button" value="Add" class="form-control">
+        </label>
+    </div>
+    <div>
+        <label>
+            Preperation Instructions:
+             <br>
+            <textarea  class="form-control" id="prepinstructions">
+            </textarea>
+        </label>
+    </div>
+    <div>
+        <label>Category
+            <select name="Category">
+                <option value="cake">Cake</option>
+            </select>
+        </label>
+    </div>
+    <input type="button" value="Submit">
+</form>
+
+</body>
+</html>
