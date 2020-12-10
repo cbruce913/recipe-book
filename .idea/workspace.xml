@@ -23,12 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/static/images/meal-placeholder.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/build/classes/java/main/org/liftoff/recipebook/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build/classes/java/main/org/liftoff/recipebook/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build/resources/main/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +77,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Thymeleaf" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/recipe-book" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -96,7 +100,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/recipe-book/src/main/resources/images" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -108,7 +111,7 @@
       <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.recipe-book [bootRun]">
     <configuration name="/Users/Ed/Lift-off Project/recipe-book-1/recipe-book/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,8 +129,28 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="recipe-book [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/recipe-book" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.recipe-book [bootRun]" />
         <item itemvalue="Gradle./Users/Ed/Lift-off Project/recipe-book-1/recipe-book/build.gradle" />
       </list>
     </recent_temporary>
@@ -156,22 +179,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607151146930">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607575644815">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607151146930" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607151146928">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607575644815" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607580814014">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607151146928" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607151146927">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607580814014" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607580814013">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607151146927" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607151146929">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607580814013" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607580814012">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607151146929" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607580814012" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607580814013">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607580814013" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607130210707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
