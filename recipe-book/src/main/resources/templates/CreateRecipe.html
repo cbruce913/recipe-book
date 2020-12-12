@@ -18,13 +18,17 @@
     <div>
         <label>
             Ingredients:
-            <input type="text">
+            ingredient1: <input type="text" name="ingredient1"> <br>
+            ingredient2: <input type="text" name="ingredient2"> <br>
+            ingredient3:<input type="text" name="ingredient3"> <br>
+            ingredient4:<input type="text" name="ingredient4"> <br>
+            ingredient5:<input type="text" name="ingredient5"> <br>
             <input type="button" value="Add" class="form-control">
         </label>
     </div>
     <div>
         <label>
-            Preperation Instructions:
+            Preparation Instructions:
              <br>
             <textarea name="description" class="form-control" >
             </textarea>
@@ -32,8 +36,11 @@
     </div>
     <div>
         <label>Category
-            <select name="Category">
-                <option value="cake">Cake</option>
+            <select name="category">
+                <option th:each="category : ${categories}"
+                        th:value="${category.id}"
+                        th:text="${category.name}"
+                ></option>
             </select>
         </label>
     </div>

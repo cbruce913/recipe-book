@@ -4,33 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/RecipeCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/recipe-book">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <projects_view>
@@ -77,8 +70,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Thymeleaf" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -100,6 +93,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/recipe-book/src/main/resources/images" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -179,26 +173,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607575644815">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607739558473">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607575644815" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607580814014">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607739558473" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607740716727">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607580814014" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607580814013">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607740716727" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607740716725">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607580814013" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607580814012">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607740716725" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607740716724">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607580814012" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607580814013">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607740716724" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607740716726">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607580814013" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607740716726" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607130210707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
