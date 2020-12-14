@@ -9,18 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/RecipeCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/static/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +62,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Thymeleaf" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="Thymeleaf" />
       </list>
     </option>
   </component>
@@ -173,26 +166,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607739558473">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607926949205">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607739558473" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607740716727">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607926949205" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607984015710">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607740716727" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607740716725">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607984015710" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607984015709">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607740716725" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607740716724">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607984015709" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607984015708">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607740716724" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607740716726">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607984015708" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607984015710">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607740716726" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607984015710" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1607130210707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

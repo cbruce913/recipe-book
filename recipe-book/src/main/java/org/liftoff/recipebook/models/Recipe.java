@@ -19,6 +19,8 @@ public class Recipe {
     private String ingredients;
     private String category;
 
+
+
     public Recipe(){id++;}
     public Recipe(String name,String description,String ingredients,String category){
         this.name = name;
@@ -61,4 +63,5 @@ public class Recipe {
     public void setCategory(String category) {
         this.category = category;
     }
+
 }

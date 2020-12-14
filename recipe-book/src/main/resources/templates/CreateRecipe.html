@@ -2,30 +2,33 @@
 <html lang="en" xmlns:th="https://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
     <title>Title</title>
+
 </head>
 <body>
 <form method='post'>
     <div>
-        <img src="./images/meal-placeholder.jpg">
-
+        <img src="./images/meal-placeholder.jpg"> <br>
     </div>
     <div>
         <label>Dish Name
             <input name="name" class="form-control"/>
         </label>
     </div>
-    <div>
-        <label>
-            Ingredients:
-            ingredient1: <input type="text" name="ingredient1"> <br>
-            ingredient2: <input type="text" name="ingredient2"> <br>
-            ingredient3:<input type="text" name="ingredient3"> <br>
-            ingredient4:<input type="text" name="ingredient4"> <br>
-            ingredient5:<input type="text" name="ingredient5"> <br>
-            <input type="button" value="Add" class="form-control">
-        </label>
-    </div>
+    <div class="input-group mb-3">
+        <input id="ingredientInput" type="text" class="form-control" placeholder="Ex: 1 cup of flour" aria-label="Add Ingredient" aria-describedby="basic-addon2" name="ingredients">
+        <input type="hidden" name="hiddenIngredients" id="hide"></input>
+        <div class="input-group-append">
+            <button class="btn btn-outline-info" id="add" type="button">Add Ingredient</button>
+        </div>
+    </div> <div class="col-12">
+    <ul class="list-group" >
+    </ul>
+</div>
+
     <div>
         <label>
             Preparation Instructions:
@@ -44,8 +47,23 @@
             </select>
         </label>
     </div>
+
+
     <input type="submit" value="Submit">
 </form>
 
+
+
+
 </body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="../script.js"></script>
+
+
 </html>
