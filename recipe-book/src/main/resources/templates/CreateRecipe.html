@@ -12,20 +12,24 @@
 <form method='post'>
     <div>
         <img src="./images/meal-placeholder.jpg"> <br>
+        <input name="imageUrl" type="text" class="form-control" placeholder="Past image url here">
     </div>
     <div>
-        <label>Dish Name
+        <label>Dish Name:
             <input name="name" class="form-control"/>
         </label>
     </div>
     <div class="input-group mb-3">
-        <input id="ingredientInput" type="text" class="form-control" placeholder="Ex: 1 cup of flour" aria-label="Add Ingredient" aria-describedby="basic-addon2" name="ingredients">
-        <input type="hidden" name="hiddenIngredients" id="hide"></input>
+        <label>Ingredients:
+            <br>
+        <input id="ingredientInput" type="text" class="form-control" placeholder="Ex: 1 cup of flour" aria-label="Add Ingredient" aria-describedby="basic-addon2" name="ingredients" width="50px">
+        <input type="hidden" name="hiddenIngredients" id="hide">
         <div class="input-group-append">
             <button class="btn btn-outline-info" id="add" type="button">Add Ingredient</button>
         </div>
+        </label>
     </div> <div class="col-12">
-    <ul class="list-group" >
+    <ul class="list-group" width="70px">
     </ul>
 </div>
 

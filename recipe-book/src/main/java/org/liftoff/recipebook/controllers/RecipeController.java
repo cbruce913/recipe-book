@@ -3,6 +3,7 @@ package org.liftoff.recipebook.controllers;
 import org.liftoff.recipebook.data.RecipeCategoryRepository;
 import org.liftoff.recipebook.data.RecipeRepository;
 import org.liftoff.recipebook.models.Recipe;
+import org.liftoff.recipebook.models.RecipeCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,6 +17,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 
 @Controller
@@ -36,19 +38,13 @@ public class RecipeController {
 
     @PostMapping("CreateRecipe")
     public String createRecipe(@RequestParam String name, Recipe recipe, @RequestParam String description,
-                               @RequestParam String hiddenIngredients, @RequestParam String category){
+                               @RequestParam String hiddenIngredients, @RequestParam RecipeCategory category,
+                               @RequestParam String imageUrl){
 
 
+       //String ingredients1 = hiddenIngredients;
 
-       String ingredients1 = hiddenIngredients;
-
-//        String ingredients = "";
-//        if(ingredient1.length() > 0){ ingredients += ingredient1 +",";}
-//        if(ingredient2.length() > 0){ ingredients += ingredient2 +",";}
-//        if(ingredient3.length() > 0){ ingredients += ingredient3 +",";}
-//        if(ingredient4.length() > 0){ ingredients += ingredient4 +",";}
-//        if(ingredient5.length() > 0){ ingredients += ingredient5 +",";}
-//        hiddenIngredients.trim();
+        recipe.setImageUrl(imageUrl);
         recipe.setName(name);
         recipe.setDescription(description);
         recipe.setIngredients(hiddenIngredients);
@@ -57,5 +53,11 @@ public class RecipeController {
     return "redirect:";
     }
 
+    @GetMapping("testpic")
+    public String testPic(Model model){
+       model.addAttribute("recipePic",recipeRepository.findById(58));
+        System.out.print("something");
+        return "testpic";
+    }
 
 }

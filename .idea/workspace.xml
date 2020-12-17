@@ -8,7 +8,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="" />
+    <list default="true" id="3eee3623-bf49-46cd-ae95-fb4bd38fc978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/createCategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/testpic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/controllers/RecipeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/data/RecipeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/RecipeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/java/org/liftoff/recipebook/models/RecipeCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,9 +67,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Thymeleaf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,11 +96,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.liftoff.recipebook.models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recipe-book/src/main/resources/static" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.recipe-book [bootRun]">
@@ -160,30 +174,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1607926949205">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1608173037607">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1607926949205" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1607985429628">
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1608173037607" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1608231303452">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607985429628" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1607985429626">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608231303452" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1608231303450">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607985429626" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1607985429625">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608231303450" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1608231303449">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607985429625" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1607985429627">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608231303449" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1608231303451">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607985429627" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1607130210707">
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608231303451" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1608166898233">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1607130210707" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1608166898233" />
     <state x="305" y="185" key="run.anything.popup" timestamp="1607131842962">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

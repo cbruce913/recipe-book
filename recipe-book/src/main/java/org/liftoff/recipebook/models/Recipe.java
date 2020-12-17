@@ -5,32 +5,34 @@ import org.springframework.context.annotation.Primary;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 
 @Entity
-public class Recipe {
-
-    @Id
-    @GeneratedValue
-    private int id;
+public class Recipe extends AbstractEntity{
 
     private String name;
     private String description;
     private String ingredients;
-    private String category;
+
+    @ManyToOne
+    private RecipeCategory category;
+
+    private String imageUrl;
 
 
 
-    public Recipe(){id++;}
-    public Recipe(String name,String description,String ingredients,String category){
+    public Recipe(){}
+    public Recipe(String name,String description,String ingredients,RecipeCategory category,String imageUrl){
         this.name = name;
         this.description = description;
         this.ingredients = ingredients;
         this.category = category;
-        id++;
+        this.imageUrl = imageUrl;
+
     }
 
-    public Recipe(String name){ this.name = name; id++;;}
+    public Recipe(String name){ this.name = name;}
 
     public String getName() {
         return name;
@@ -56,12 +58,21 @@ public class Recipe {
         this.ingredients = ingredients;
     }
 
-    public String getCategory() {
+    public RecipeCategory getCategory() {
         return category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(RecipeCategory category) {
         this.category = category;
     }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
 
 }

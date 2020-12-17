@@ -8,34 +8,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class RecipeCategory {
-    @Id
-    @GeneratedValue
-    private int id;
+public class RecipeCategory extends AbstractEntity{
+
 
     private String name;
 
-    @OneToMany
+    @OneToMany(mappedBy = "category")
     private final List<Recipe> recipes = new ArrayList<>();
 
 
-    public RecipeCategory(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
     public RecipeCategory(String name) {
         this.name = name;
     }
 
     public RecipeCategory() {}
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
