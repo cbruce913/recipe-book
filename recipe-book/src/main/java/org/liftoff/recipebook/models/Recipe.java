@@ -19,6 +19,7 @@ public class Recipe extends AbstractEntity{
     private RecipeCategory category;
 
     private String imageUrl;
+    
 
 
 
