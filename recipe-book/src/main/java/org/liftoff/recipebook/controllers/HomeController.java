@@ -12,10 +12,6 @@ public class HomeController {
         return "index";
     }
 
-//    @GetMapping("CreateRecipe")
-//    public String createRecipe() {
-//        return "CreateRecipe";
-//    }
 
 
 }

@@ -2,18 +2,20 @@ package org.liftoff.recipebook.models;
 
 import org.springframework.context.annotation.Primary;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
+import javax.validation.constraints.Max;
 
 
 @Entity
 public class Recipe extends AbstractEntity{
 
+
+    private int userId;
+
     private String name;
     private String description;
     private String ingredients;
+
 
     @ManyToOne
     private RecipeCategory category;
@@ -24,7 +26,8 @@ public class Recipe extends AbstractEntity{
 
 
     public Recipe(){}
-    public Recipe(String name,String description,String ingredients,RecipeCategory category,String imageUrl){
+    public Recipe(String name,String description,String ingredients,RecipeCategory category,String imageUrl, int userId){
+        this.userId = userId;
         this.name = name;
         this.description = description;
         this.ingredients = ingredients;
@@ -75,5 +78,11 @@ public class Recipe extends AbstractEntity{
         this.imageUrl = imageUrl;
     }
 
+    public int getUserId() {
+        return userId;
+    }
 
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 }
