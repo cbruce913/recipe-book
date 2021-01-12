@@ -8,7 +8,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1557541a-5cde-4906-99a1-b3ee9ff5e180" name="Default Changelist" comment="" />
+    <list default="true" id="1557541a-5cde-4906-99a1-b3ee9ff5e180" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-book/src/main/resources/templates/CreateRecipe.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +163,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d1e5b77f-9692-484f-9ecc-e4c540cf29de" name="Default Changelist" comment="" />
+      <changelist id="1557541a-5cde-4906-99a1-b3ee9ff5e180" name="Default Changelist" comment="" />
       <created>1606789988923</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -184,22 +188,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1610119682350" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610156083521">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1610413802250">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610156083521" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610156083520">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1610413802250" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1610413802249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610156083520" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610156083518">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1610413802249" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1610413802248">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610156083518" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610156083520">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1610413802248" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1610413802249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610156083520" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1610413802249" />
     <state x="228" y="150" key="IDE.errors.dialog" timestamp="1608232716145">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
