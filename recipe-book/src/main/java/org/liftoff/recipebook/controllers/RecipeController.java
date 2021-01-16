@@ -65,7 +65,7 @@ public class RecipeController {
     //this is just to test the url function
     @GetMapping("testpic")
     public String testPic(Model model){
-       model.addAttribute("recipePic",recipeRepository.findById(58));
+       model.addAttribute("recipePic",recipeRepository.findById(80));
         System.out.print("something");
         return "testpic";
     }
