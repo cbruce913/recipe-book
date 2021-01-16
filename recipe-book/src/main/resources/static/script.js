@@ -11,7 +11,7 @@ button.addEventListener("click", function() {
   //li.setAttribute("name","ingredients");
   li.appendChild(document.createTextNode(input.value));
   ul.appendChild(li);
-  hiddenIngredients.value += input.value + "$$!";
+  hiddenIngredients.value += input.value + "$$";
   // Clear your input
   input.value = "";
 })
