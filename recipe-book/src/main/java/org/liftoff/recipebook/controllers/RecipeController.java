@@ -55,7 +55,7 @@ public class RecipeController {
         recipe.setUserId(currentUserId);
         recipe.setImageUrl(imageUrl);
         recipe.setName(name);
-        recipe.setDescription(description);
+        recipe.setDescription(description.trim());
         recipe.setIngredients(hiddenIngredients);
         recipe.setCategory(category);
         recipeRepository.save(recipe);
