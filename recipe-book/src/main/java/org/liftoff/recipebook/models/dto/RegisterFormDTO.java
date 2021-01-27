@@ -1,4 +1,4 @@
-package org.liftoff.recipebook.dto;
+package org.liftoff.recipebook.models.dto;
 
 public class RegisterFormDTO extends LoginFormDTO {
 

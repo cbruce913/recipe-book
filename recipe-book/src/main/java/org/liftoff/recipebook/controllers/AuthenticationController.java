@@ -1,8 +1,8 @@
 package org.liftoff.recipebook.controllers;
 
-import org.liftoff.recipebook.data.UserRepository;
-import org.liftoff.recipebook.dto.LoginFormDTO;
-import org.liftoff.recipebook.dto.RegisterFormDTO;
+import org.liftoff.recipebook.models.data.UserRepository;
+import org.liftoff.recipebook.models.dto.LoginFormDTO;
+import org.liftoff.recipebook.models.dto.RegisterFormDTO;
 import org.liftoff.recipebook.models.User;;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

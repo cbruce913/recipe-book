@@ -1,6 +1,5 @@
-package org.liftoff.recipebook.data;
+package org.liftoff.recipebook.models.data;
 
-import org.liftoff.recipebook.models.Recipe;
 import org.liftoff.recipebook.models.RecipeCategory;
 import org.springframework.data.repository.CrudRepository;
 
