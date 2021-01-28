@@ -1,7 +1,8 @@
 var button = document.getElementById("add");
 var input = document.getElementById("ingredientInput");
-var ul = document.querySelector("ul");
+var ul = document.querySelectorAll("ul")[1];
 var hiddenIngredients = document.getElementById("hide");
+
 
 //This function adds the ingredients to a list to be saved to the recipe
 button.addEventListener("click", function() {
@@ -11,7 +12,7 @@ button.addEventListener("click", function() {
   //li.setAttribute("name","ingredients");
   li.appendChild(document.createTextNode(input.value));
   ul.appendChild(li);
-  hiddenIngredients.value += input.value + "$$!";
+  hiddenIngredients.value += input.value + "$$";
   // Clear your input
   input.value = "";
 })
