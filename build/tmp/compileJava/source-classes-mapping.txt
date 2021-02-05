@@ -12,8 +12,8 @@ org/liftoff/recipebook/AuthenticationFilter.java
  org.liftoff.recipebook.AuthenticationFilter
 org/liftoff/recipebook/controllers/HomeController.java
  org.liftoff.recipebook.controllers.HomeController
-org/liftoff/recipebook/controllers/RecipeController.java
- org.liftoff.recipebook.controllers.RecipeController
+org/liftoff/recipebook/models/dto/LoginFormDTO.java
+ org.liftoff.recipebook.models.dto.LoginFormDTO
 org/liftoff/recipebook/models/UserData.java
  org.liftoff.recipebook.models.UserData
 org/liftoff/recipebook/controllers/AuthenticationController.java
@@ -30,11 +30,18 @@ org/liftoff/recipebook/models/data/RecipeRepository.java
  org.liftoff.recipebook.models.data.RecipeRepository
 org/liftoff/recipebook/controllers/RecipeCategoryController.java
  org.liftoff.recipebook.controllers.RecipeCategoryController
+org/liftoff/recipebook/controllers/AddProfilePictureController.java
+ org.liftoff.recipebook.controllers.AddProfilePictureController
 org/liftoff/recipebook/controllers/ViewController.java
  org.liftoff.recipebook.controllers.ViewController
 org/liftoff/recipebook/models/dto/RegisterFormDTO.java
  org.liftoff.recipebook.models.dto.RegisterFormDTO
 org/liftoff/recipebook/models/AbstractEntity.java
  org.liftoff.recipebook.models.AbstractEntity
+<<<<<<< HEAD
 org/liftoff/recipebook/controllers/ProfileController.java
  org.liftoff.recipebook.controllers.ProfileController
+=======
+org/liftoff/recipebook/controllers/RecipeController.java
+ org.liftoff.recipebook.controllers.RecipeController
+>>>>>>> 0684fadf396f005a20ed1a7f3a1c5d396f57ad50
