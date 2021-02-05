@@ -9,7 +9,7 @@
         <tbody id="profile">
             <tr align="center">
                 <td>
-                    <img src="https://secure.gravatar.com/avatar/4256abfa50333ffadd62fd8fb70849ad" alt="Profile picture not found" width="200" height="200" style="border-radius: 50%;">
+                    <img class="img" src="https://secure.gravatar.com/avatar/4256abfa50333ffadd62fd8fb70849ad" alt="Profile picture not found">
                     <p th:text="${user.username}">USERNAME</p>
                 </td>
                 <td>
@@ -41,8 +41,8 @@
             </tr>
             <tr>
                 <td>
-                    <a th:href="@{/create-recipe}">Create-a-Recipe</a>
-                    <a th:href="@{/delete}">Delete-a-Recipe</a>
+                    <a th:href="@{/create-recipe}">Create a Recipe</a><br>
+                    <a th:href="@{/delete}">Delete a Recipe</a>
                 </td>
             </tr>
         </tbody>
